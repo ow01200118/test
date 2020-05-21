@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\util">
+      <UniqueIdentifier>{ea3fd03f-0d40-445b-ac86-2a22f97ff997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\util">
+      <UniqueIdentifier>{eae42b4d-fcc8-4618-be66-dd854e08c1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\IoTyzer">
+      <UniqueIdentifier>{8feecfc7-cd94-406f-a5b2-888f544b54be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\socket">
+      <UniqueIdentifier>{68dc2d9b-e46f-47a1-abb2-b88d1a2f29bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\socket">
+      <UniqueIdentifier>{8dcf3cb9-1ec9-48c2-a0ed-ade519268d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\cavp">
+      <UniqueIdentifier>{0b3cec39-66a1-408d-86d8-585e17834a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\cavp">
+      <UniqueIdentifier>{45c1af9c-eb73-4b19-8005-e3221ae23116}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\util\print.c">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IoTyzerClient.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\socket\socket.c">
+      <Filter>소스 파일\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\casting.c">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cavp\kor_kat_test_c.c">
+      <Filter>소스 파일\cavp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cavp\kor_mct_test_c.c">
+      <Filter>소스 파일\cavp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cavp\kor_mmt_test_c.c">
+      <Filter>소스 파일\cavp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cavp\cavp_client.c">
+      <Filter>소스 파일\cavp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cavp\cavp.c">
+      <Filter>소스 파일\cavp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\util\print.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IoTyzer\define.h">
+      <Filter>헤더 파일\IoTyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IoTyzer\return.h">
+      <Filter>헤더 파일\IoTyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\socket\socket.h">
+      <Filter>헤더 파일\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IoTyzerClient.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\cavp\kor_kat_test.h">
+      <Filter>헤더 파일\cavp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\cavp\kor_mct_test.h">
+      <Filter>헤더 파일\cavp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\cavp\kor_mmt_test.h">
+      <Filter>헤더 파일\cavp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\util\casting.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\cavp\cavp.h">
+      <Filter>헤더 파일\cavp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\libIoTyzer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

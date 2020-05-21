@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\util">
+      <UniqueIdentifier>{d69fa5a1-78b3-4895-b9bf-2217b6cdf43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\socket">
+      <UniqueIdentifier>{ccc4e322-486e-4d8a-a87b-5871178fa810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\IoTyzer">
+      <UniqueIdentifier>{00d08aec-2649-4985-b996-18f32f46e238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\comm">
+      <UniqueIdentifier>{31448284-5292-4365-b557-f3c09dd3bd42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\util">
+      <UniqueIdentifier>{68743077-74bf-49fe-a512-bd1e0f572087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\comm">
+      <UniqueIdentifier>{cf9c6bd2-0259-4dc1-918f-51381431c4ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\comm\comm.c">
+      <Filter>소스 파일\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\print.c">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libIoTyzer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\comm\comm.h">
+      <Filter>헤더 파일\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IoTyzer\define.h">
+      <Filter>헤더 파일\IoTyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IoTyzer\return.h">
+      <Filter>헤더 파일\IoTyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\socket\socket.h">
+      <Filter>헤더 파일\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\libIoTyzer.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

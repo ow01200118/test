@@ -1,0 +1,13 @@
+#ifndef _IOTZ_TARGET_H_
+#define _IOTZ_TARGET_H_
+
+
+#define IOTZ_TARGET_OPEN_ERROR              1
+#define IOTZ_TARGET_ACCEPT_ERROR            1
+
+#define IOTZ_TARGET_BLOCKCIPHER_PARAMETER_ERROR	1
+#define IOTZ_TARGET_HASH_PARAMETER_ERROR 2
+
+#else
+
+#endif

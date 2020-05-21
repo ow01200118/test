@@ -1,0 +1,16 @@
+﻿  cavp.c
+  cavp_server.c
+  kor_kat_test_s.c
+  kor_mct_test_s.c
+  kor_mmt_test_s.c
+  aria.c
+  lea.c
+  mode_of_operate.c
+  rand.c
+  seed.c
+  IoTyzerServer.c
+  socket.c
+  casting.c
+  print.c
+  코드를 생성하고 있습니다...
+  IoTyzer Server.vcxproj -> C:\Users\walker\Desktop\eyl원본\IoTyzer\x64\Debug\IoTyzer Server.exe

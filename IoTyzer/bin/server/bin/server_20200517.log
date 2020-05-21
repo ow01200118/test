@@ -1,0 +1,250 @@
+[2020-05-17 15:01:36] ********************************************************************************
+[2020-05-17 15:01:36] ****                            IoTyzer Server!                             ****
+[2020-05-17 15:01:36] ********************************************************************************
+[2020-05-17 15:01:36] IoTyzer Server initialize
+[2020-05-17 15:01:36]     Server socket open success
+[2020-05-17 15:01:36]   Server socket open ...................................................... [OK]
+[2020-05-17 15:01:36] IoTyzer Server service
+[2020-05-17 15:01:36] IoTyzer Server wait client
+[2020-05-17 15:01:55]   Client info
+[2020-05-17 15:01:55]     Client IP Address : 127.0.0.1
+[2020-05-17 15:01:55]     Client Port : 50216
+[2020-05-17 15:01:55] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:01:55]   IoTyzer Server response CAVP
+[2020-05-17 15:01:55]     [Response CAVP] Generate ARIA128(ECB)KAT req/fax file
+[2020-05-17 15:01:55]     Generate KAT Request 'ARIA128(ECB)KAT.req' 'ARIA128(ECB)KAT.fax' done
+[2020-05-17 15:01:56]     [Response CAVP] Send ARIA128(ECB)KAT.req file ......................... [OK]
+[2020-05-17 15:01:56]     [Response CAVP] Generate ARIA128(ECB)MMT req/fax file
+[2020-05-17 15:01:56]     Generate MMT Request 'ARIA128(ECB)MMT.req' 'ARIA128(ECB)MMT.fax' done
+[2020-05-17 15:01:56]     [Response CAVP] Send ARIA128(ECB)MMT.req file ......................... [OK]
+[2020-05-17 15:01:56]     [Response CAVP] Generate ARIA128(ECB)MCT req/fax file
+[2020-05-17 15:01:56]     Generate MCT Request 'ARIA128(ECB)MCT.req' 'ARIA128(ECB)MCT.fax' done
+[2020-05-17 15:01:56]     [Response CAVP] Send ARIA128(ECB)MCT.req file ......................... [OK]
+[2020-05-17 15:01:56]     Client Socket closed
+[2020-05-17 15:01:56]   IoTyzer Server response CAVP ............................................ [OK]
+[2020-05-17 15:01:56] IoTyzer Server wait client
+[2020-05-17 15:02:21] ********************************************************************************
+[2020-05-17 15:02:21] ****                            IoTyzer Server!                             ****
+[2020-05-17 15:02:21] ********************************************************************************
+[2020-05-17 15:02:21] IoTyzer Server initialize
+[2020-05-17 15:02:21]     Server socket open success
+[2020-05-17 15:02:21]   Server socket open ...................................................... [OK]
+[2020-05-17 15:02:21] IoTyzer Server service
+[2020-05-17 15:02:21] IoTyzer Server wait client
+[2020-05-17 15:02:23]   Client info
+[2020-05-17 15:02:23]     Client IP Address : 127.0.0.1
+[2020-05-17 15:02:23]     Client Port : 50217
+[2020-05-17 15:02:23] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:02:23]   IoTyzer Server response CAVP
+[2020-05-17 15:02:23]     [Response CAVP] Generate ARIA128(ECB)KAT req/fax file
+[2020-05-17 15:02:23]     Generate KAT Request 'ARIA128(ECB)KAT.req' 'ARIA128(ECB)KAT.fax' done
+[2020-05-17 15:02:23]     [Response CAVP] Send ARIA128(ECB)KAT.req file ......................... [OK]
+[2020-05-17 15:02:23]     [Response CAVP] Generate ARIA128(ECB)MMT req/fax file
+[2020-05-17 15:02:23]     Generate MMT Request 'ARIA128(ECB)MMT.req' 'ARIA128(ECB)MMT.fax' done
+[2020-05-17 15:02:23]     [Response CAVP] Send ARIA128(ECB)MMT.req file ......................... [OK]
+[2020-05-17 15:02:23]     [Response CAVP] Generate ARIA128(ECB)MCT req/fax file
+[2020-05-17 15:02:23]     Generate MCT Request 'ARIA128(ECB)MCT.req' 'ARIA128(ECB)MCT.fax' done
+[2020-05-17 15:02:24]     [Response CAVP] Send ARIA128(ECB)MCT.req file ......................... [OK]
+[2020-05-17 15:02:24]     Client Socket closed
+[2020-05-17 15:02:24]   IoTyzer Server response CAVP ............................................ [OK]
+[2020-05-17 15:02:24] IoTyzer Server wait client
+[2020-05-17 15:03:58]   Client info
+[2020-05-17 15:03:58]     Client IP Address : 127.0.0.1
+[2020-05-17 15:03:58]     Client Port : 50225
+[2020-05-17 15:03:58] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:03:58]   IoTyzer Server response submit
+[2020-05-17 15:03:58]     [Response submit] Recv ARIA128(ECB)KAT.rsp file ....................... [OK]
+[2020-05-17 15:03:58]     [Response submit] Compare ARIA128(ECB)KAT rsp/fax file ................ [OK]
+[2020-05-17 15:03:59]     [Response submit] Recv ARIA128(ECB)MMT.rsp file ....................... [OK]
+[2020-05-17 15:03:59]     [Response submit] Compare ARIA128(ECB)MMT rsp/fax file ................ [OK]
+[2020-05-17 15:03:59]     [Response submit] Recv ARIA128(ECB)MCT.rsp file ....................... [OK]
+[2020-05-17 15:03:59]     [Response submit] Compare ARIA128(ECB)MCT rsp/fax file ................ [OK]
+[2020-05-17 15:03:59]     Client Socket closed
+[2020-05-17 15:03:59]   IoTyzer Server response submit .......................................... [OK]
+[2020-05-17 15:03:59] IoTyzer Server wait client
+[2020-05-17 15:03:59]   Client info
+[2020-05-17 15:03:59]     Client IP Address : 127.0.0.1
+[2020-05-17 15:03:59]     Client Port : 50226
+[2020-05-17 15:03:59] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:03:59]   IoTyzer Server response CAVP
+[2020-05-17 15:03:59]     [Response CAVP] Generate ARIA192(ECB)KAT req/fax file
+[2020-05-17 15:03:59]     Generate KAT Request 'ARIA192(ECB)KAT.req' 'ARIA192(ECB)KAT.fax' done
+[2020-05-17 15:03:59]     [Response CAVP] Send ARIA192(ECB)KAT.req file ......................... [OK]
+[2020-05-17 15:03:59]     [Response CAVP] Generate ARIA192(ECB)MMT req/fax file
+[2020-05-17 15:03:59]     Generate MMT Request 'ARIA192(ECB)MMT.req' 'ARIA192(ECB)MMT.fax' done
+[2020-05-17 15:04:00]     [Response CAVP] Send ARIA192(ECB)MMT.req file ......................... [OK]
+[2020-05-17 15:04:00]     [Response CAVP] Generate ARIA192(ECB)MCT req/fax file
+[2020-05-17 15:04:00]     Generate MCT Request 'ARIA192(ECB)MCT.req' 'ARIA192(ECB)MCT.fax' done
+[2020-05-17 15:04:00]     [Response CAVP] Send ARIA192(ECB)MCT.req file ......................... [OK]
+[2020-05-17 15:04:00]     Client Socket closed
+[2020-05-17 15:04:00]   IoTyzer Server response CAVP ............................................ [OK]
+[2020-05-17 15:04:00] IoTyzer Server wait client
+[2020-05-17 15:05:34]   Client info
+[2020-05-17 15:05:34]     Client IP Address : 127.0.0.1
+[2020-05-17 15:05:34]     Client Port : 50233
+[2020-05-17 15:05:34] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:05:34]   IoTyzer Server response submit
+[2020-05-17 15:05:34]     [Response submit] Recv ARIA192(ECB)KAT.rsp file ....................... [OK]
+[2020-05-17 15:05:34]     [Response submit] Compare ARIA192(ECB)KAT rsp/fax file ................ [OK]
+[2020-05-17 15:05:34]     [Response submit] Recv ARIA192(ECB)MMT.rsp file ....................... [OK]
+[2020-05-17 15:05:34]     [Response submit] Compare ARIA192(ECB)MMT rsp/fax file ................ [OK]
+[2020-05-17 15:05:35]     [Response submit] Recv ARIA192(ECB)MCT.rsp file ....................... [OK]
+[2020-05-17 15:05:35]     [Response submit] Compare ARIA192(ECB)MCT rsp/fax file ................ [OK]
+[2020-05-17 15:05:35]     Client Socket closed
+[2020-05-17 15:05:35]   IoTyzer Server response submit .......................................... [OK]
+[2020-05-17 15:05:35] IoTyzer Server wait client
+[2020-05-17 15:05:35]   Client info
+[2020-05-17 15:05:35]     Client IP Address : 127.0.0.1
+[2020-05-17 15:05:35]     Client Port : 50234
+[2020-05-17 15:05:35] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:05:35]   IoTyzer Server response CAVP
+[2020-05-17 15:05:35]     [Response CAVP] Generate ARIA256(ECB)KAT req/fax file
+[2020-05-17 15:05:35]     Generate KAT Request 'ARIA256(ECB)KAT.req' 'ARIA256(ECB)KAT.fax' done
+[2020-05-17 15:05:35]     [Response CAVP] Send ARIA256(ECB)KAT.req file ......................... [OK]
+[2020-05-17 15:05:35]     [Response CAVP] Generate ARIA256(ECB)MMT req/fax file
+[2020-05-17 15:05:35]     Generate MMT Request 'ARIA256(ECB)MMT.req' 'ARIA256(ECB)MMT.fax' done
+[2020-05-17 15:05:35]     [Response CAVP] Send ARIA256(ECB)MMT.req file ......................... [OK]
+[2020-05-17 15:05:35]     [Response CAVP] Generate ARIA256(ECB)MCT req/fax file
+[2020-05-17 15:05:35]     Generate MCT Request 'ARIA256(ECB)MCT.req' 'ARIA256(ECB)MCT.fax' done
+[2020-05-17 15:05:36]     [Response CAVP] Send ARIA256(ECB)MCT.req file ......................... [OK]
+[2020-05-17 15:05:36]     Client Socket closed
+[2020-05-17 15:05:36]   IoTyzer Server response CAVP ............................................ [OK]
+[2020-05-17 15:05:36] IoTyzer Server wait client
+[2020-05-17 15:07:09]   Client info
+[2020-05-17 15:07:09]     Client IP Address : 127.0.0.1
+[2020-05-17 15:07:09]     Client Port : 50236
+[2020-05-17 15:07:09] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:07:09]   IoTyzer Server response submit
+[2020-05-17 15:07:10]     [Response submit] Recv ARIA256(ECB)KAT.rsp file ....................... [OK]
+[2020-05-17 15:07:10]     [Response submit] Compare ARIA256(ECB)KAT rsp/fax file ................ [OK]
+[2020-05-17 15:07:10]     [Response submit] Recv ARIA256(ECB)MMT.rsp file ....................... [OK]
+[2020-05-17 15:07:10]     [Response submit] Compare ARIA256(ECB)MMT rsp/fax file ................ [OK]
+[2020-05-17 15:07:10]     [Response submit] Recv ARIA256(ECB)MCT.rsp file ....................... [OK]
+[2020-05-17 15:07:10]     [Response submit] Compare ARIA256(ECB)MCT rsp/fax file ................ [OK]
+[2020-05-17 15:07:10]     Client Socket closed
+[2020-05-17 15:07:10]   IoTyzer Server response submit .......................................... [OK]
+[2020-05-17 15:07:10] IoTyzer Server wait client
+[2020-05-17 15:07:10]   Client info
+[2020-05-17 15:07:10]     Client IP Address : 127.0.0.1
+[2020-05-17 15:07:10]     Client Port : 50237
+[2020-05-17 15:07:10] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:07:10]   IoTyzer Server response CAVP
+[2020-05-17 15:07:10]     [Response CAVP] Generate SEED(ECB)KAT req/fax file
+[2020-05-17 15:07:10]     Generate KAT Request 'SEED(ECB)KAT.req' 'SEED(ECB)KAT.fax' done
+[2020-05-17 15:07:11]     [Response CAVP] Send SEED(ECB)KAT.req file ............................ [OK]
+[2020-05-17 15:07:11]     [Response CAVP] Generate SEED(ECB)MMT req/fax file
+[2020-05-17 15:07:11]     Generate MMT Request 'SEED(ECB)MMT.req' 'SEED(ECB)MMT.fax' done
+[2020-05-17 15:07:11]     [Response CAVP] Send SEED(ECB)MMT.req file ............................ [OK]
+[2020-05-17 15:07:11]     [Response CAVP] Generate SEED(ECB)MCT req/fax file
+[2020-05-17 15:07:11]     Generate MCT Request 'SEED(ECB)MCT.req' 'SEED(ECB)MCT.fax' done
+[2020-05-17 15:07:11]     [Response CAVP] Send SEED(ECB)MCT.req file ............................ [OK]
+[2020-05-17 15:07:11]     Client Socket closed
+[2020-05-17 15:07:11]   IoTyzer Server response CAVP ............................................ [OK]
+[2020-05-17 15:07:11] IoTyzer Server wait client
+[2020-05-17 15:08:47]   Client info
+[2020-05-17 15:08:47]     Client IP Address : 127.0.0.1
+[2020-05-17 15:08:47]     Client Port : 50263
+[2020-05-17 15:08:47] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:08:47]   IoTyzer Server response submit
+[2020-05-17 15:08:47]     [Response submit] Recv SEED(ECB)KAT.rsp file .......................... [OK]
+[2020-05-17 15:08:47]     [Response submit] Compare SEED(ECB)KAT rsp/fax file ................... [OK]
+[2020-05-17 15:08:47]     [Response submit] Recv SEED(ECB)MMT.rsp file .......................... [OK]
+[2020-05-17 15:08:47]     [Response submit] Compare SEED(ECB)MMT rsp/fax file ................... [OK]
+[2020-05-17 15:08:48]     [Response submit] Recv SEED(ECB)MCT.rsp file .......................... [OK]
+[2020-05-17 15:08:48]     [Response submit] Compare SEED(ECB)MCT rsp/fax file ................... [OK]
+[2020-05-17 15:08:48]     Client Socket closed
+[2020-05-17 15:08:48]   IoTyzer Server response submit .......................................... [OK]
+[2020-05-17 15:08:48] IoTyzer Server wait client
+[2020-05-17 15:08:48]   Client info
+[2020-05-17 15:08:48]     Client IP Address : 127.0.0.1
+[2020-05-17 15:08:48]     Client Port : 50264
+[2020-05-17 15:08:48] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:08:48]   IoTyzer Server response CAVP
+[2020-05-17 15:08:48]     [Response CAVP] Generate LEA128(ECB)KAT req/fax file
+[2020-05-17 15:08:48]     Generate KAT Request 'LEA128(ECB)KAT.req' 'LEA128(ECB)KAT.fax' done
+[2020-05-17 15:08:48]     [Response CAVP] Send LEA128(ECB)KAT.req file .......................... [OK]
+[2020-05-17 15:08:48]     [Response CAVP] Generate LEA128(ECB)MMT req/fax file
+[2020-05-17 15:08:48]     Generate MMT Request 'LEA128(ECB)MMT.req' 'LEA128(ECB)MMT.fax' done
+[2020-05-17 15:08:48]     [Response CAVP] Send LEA128(ECB)MMT.req file .......................... [OK]
+[2020-05-17 15:08:48]     [Response CAVP] Generate LEA128(ECB)MCT req/fax file
+[2020-05-17 15:08:48]     Generate MCT Request 'LEA128(ECB)MCT.req' 'LEA128(ECB)MCT.fax' done
+[2020-05-17 15:08:49]     [Response CAVP] Send LEA128(ECB)MCT.req file .......................... [OK]
+[2020-05-17 15:08:49]     Client Socket closed
+[2020-05-17 15:08:49]   IoTyzer Server response CAVP ............................................ [OK]
+[2020-05-17 15:08:49] IoTyzer Server wait client
+[2020-05-17 15:10:27]   Client info
+[2020-05-17 15:10:27]     Client IP Address : 127.0.0.1
+[2020-05-17 15:10:27]     Client Port : 50398
+[2020-05-17 15:10:27] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:10:27]   IoTyzer Server response submit
+[2020-05-17 15:10:27]     [Response submit] Recv LEA128(ECB)KAT.rsp file ........................ [OK]
+[2020-05-17 15:10:27]     [Response submit] Compare LEA128(ECB)KAT rsp/fax file ................. [OK]
+[2020-05-17 15:10:27]     [Response submit] Recv LEA128(ECB)MMT.rsp file ........................ [OK]
+[2020-05-17 15:10:27]     [Response submit] Compare LEA128(ECB)MMT rsp/fax file ................. [OK]
+[2020-05-17 15:10:28]     [Response submit] Recv LEA128(ECB)MCT.rsp file ........................ [OK]
+[2020-05-17 15:10:28]     [Response submit] Compare LEA128(ECB)MCT rsp/fax file ................. [OK]
+[2020-05-17 15:10:28]     Client Socket closed
+[2020-05-17 15:10:28]   IoTyzer Server response submit .......................................... [OK]
+[2020-05-17 15:10:28] IoTyzer Server wait client
+[2020-05-17 15:10:28]   Client info
+[2020-05-17 15:10:28]     Client IP Address : 127.0.0.1
+[2020-05-17 15:10:28]     Client Port : 50401
+[2020-05-17 15:10:28] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:10:28]   IoTyzer Server response CAVP
+[2020-05-17 15:10:28]     [Response CAVP] Generate LEA192(ECB)KAT req/fax file
+[2020-05-17 15:10:28]     Generate KAT Request 'LEA192(ECB)KAT.req' 'LEA192(ECB)KAT.fax' done
+[2020-05-17 15:10:28]     [Response CAVP] Send LEA192(ECB)KAT.req file .......................... [OK]
+[2020-05-17 15:10:28]     [Response CAVP] Generate LEA192(ECB)MMT req/fax file
+[2020-05-17 15:10:28]     Generate MMT Request 'LEA192(ECB)MMT.req' 'LEA192(ECB)MMT.fax' done
+[2020-05-17 15:10:28]     [Response CAVP] Send LEA192(ECB)MMT.req file .......................... [OK]
+[2020-05-17 15:10:28]     [Response CAVP] Generate LEA192(ECB)MCT req/fax file
+[2020-05-17 15:10:28]     Generate MCT Request 'LEA192(ECB)MCT.req' 'LEA192(ECB)MCT.fax' done
+[2020-05-17 15:10:29]     [Response CAVP] Send LEA192(ECB)MCT.req file .......................... [OK]
+[2020-05-17 15:10:29]     Client Socket closed
+[2020-05-17 15:10:29]   IoTyzer Server response CAVP ............................................ [OK]
+[2020-05-17 15:10:29] IoTyzer Server wait client
+[2020-05-17 15:12:09]   Client info
+[2020-05-17 15:12:09]     Client IP Address : 127.0.0.1
+[2020-05-17 15:12:09]     Client Port : 50542
+[2020-05-17 15:12:09] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:12:09]   IoTyzer Server response submit
+[2020-05-17 15:12:09]     [Response submit] Recv LEA192(ECB)KAT.rsp file ........................ [OK]
+[2020-05-17 15:12:09]     [Response submit] Compare LEA192(ECB)KAT rsp/fax file ................. [OK]
+[2020-05-17 15:12:09]     [Response submit] Recv LEA192(ECB)MMT.rsp file ........................ [OK]
+[2020-05-17 15:12:09]     [Response submit] Compare LEA192(ECB)MMT rsp/fax file ................. [OK]
+[2020-05-17 15:12:10]     [Response submit] Recv LEA192(ECB)MCT.rsp file ........................ [OK]
+[2020-05-17 15:12:10]     [Response submit] Compare LEA192(ECB)MCT rsp/fax file ................. [OK]
+[2020-05-17 15:12:10]     Client Socket closed
+[2020-05-17 15:12:10]   IoTyzer Server response submit .......................................... [OK]
+[2020-05-17 15:12:10] IoTyzer Server wait client
+[2020-05-17 15:12:10]   Client info
+[2020-05-17 15:12:10]     Client IP Address : 127.0.0.1
+[2020-05-17 15:12:10]     Client Port : 50543
+[2020-05-17 15:12:10] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:12:10]   IoTyzer Server response CAVP
+[2020-05-17 15:12:10]     [Response CAVP] Generate LEA256(ECB)KAT req/fax file
+[2020-05-17 15:12:10]     Generate KAT Request 'LEA256(ECB)KAT.req' 'LEA256(ECB)KAT.fax' done
+[2020-05-17 15:12:10]     [Response CAVP] Send LEA256(ECB)KAT.req file .......................... [OK]
+[2020-05-17 15:12:10]     [Response CAVP] Generate LEA256(ECB)MMT req/fax file
+[2020-05-17 15:12:10]     Generate MMT Request 'LEA256(ECB)MMT.req' 'LEA256(ECB)MMT.fax' done
+[2020-05-17 15:12:10]     [Response CAVP] Send LEA256(ECB)MMT.req file .......................... [OK]
+[2020-05-17 15:12:10]     [Response CAVP] Generate LEA256(ECB)MCT req/fax file
+[2020-05-17 15:12:10]     Generate MCT Request 'LEA256(ECB)MCT.req' 'LEA256(ECB)MCT.fax' done
+[2020-05-17 15:12:11]     [Response CAVP] Send LEA256(ECB)MCT.req file .......................... [OK]
+[2020-05-17 15:12:11]     Client Socket closed
+[2020-05-17 15:12:11]   IoTyzer Server response CAVP ............................................ [OK]
+[2020-05-17 15:12:11] IoTyzer Server wait client
+[2020-05-17 15:13:47]   Client info
+[2020-05-17 15:13:47]     Client IP Address : 127.0.0.1
+[2020-05-17 15:13:47]     Client Port : 50551
+[2020-05-17 15:13:47] IoTyzer Server accept client .............................................. [OK]
+[2020-05-17 15:13:47]   IoTyzer Server response submit
+[2020-05-17 15:13:47]     [Response submit] Recv LEA256(ECB)KAT.rsp file ........................ [OK]
+[2020-05-17 15:13:47]     [Response submit] Compare LEA256(ECB)KAT rsp/fax file ................. [OK]
+[2020-05-17 15:13:48]     [Response submit] Recv LEA256(ECB)MMT.rsp file ........................ [OK]
+[2020-05-17 15:13:48]     [Response submit] Compare LEA256(ECB)MMT rsp/fax file ................. [OK]
+[2020-05-17 15:13:48]     [Response submit] Recv LEA256(ECB)MCT.rsp file ........................ [OK]
+[2020-05-17 15:13:48]     [Response submit] Compare LEA256(ECB)MCT rsp/fax file ................. [OK]
+[2020-05-17 15:13:48]     Client Socket closed
+[2020-05-17 15:13:48]   IoTyzer Server response submit .......................................... [OK]
+[2020-05-17 15:13:48] IoTyzer Server wait client

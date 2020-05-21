@@ -1,0 +1,267 @@
+[2020-05-17 15:02:23] ********************************************************************************
+[2020-05-17 15:02:23] ****                            IoTyzer Client!                             ****
+[2020-05-17 15:02:23] ********************************************************************************
+[2020-05-17 15:02:23] IoTyzer Client get device info
+[2020-05-17 15:02:23]   IoTyzer Device Info
+[2020-05-17 15:02:23]     Vendor        : Kookmin University
+[2020-05-17 15:02:23]     Model Name    : IOTYZER-T001
+[2020-05-17 15:02:23]     Serial Number : 000000001
+[2020-05-17 15:02:23] IoTyzer Client request CAVP
+[2020-05-17 15:02:23]   [Request CAVP] Request ARIA128(ECB) CAVP test file
+[2020-05-17 15:02:23]   Server info
+[2020-05-17 15:02:23]     Server IP Address : 127.0.0.1
+[2020-05-17 15:02:23]     Server Port : 9000
+[2020-05-17 15:02:23]     Connect server success
+[2020-05-17 15:02:23]     [Request CAVP] Recv ARIA128(ECB)KAT.req file .......................... [OK]
+[2020-05-17 15:02:23]     [Request CAVP] Recv ARIA128(ECB)MMT.req file .......................... [OK]
+[2020-05-17 15:02:24]     [Request CAVP] Recv ARIA128(ECB)MCT.req file .......................... [OK]
+[2020-05-17 15:02:24]     Socket closed
+[2020-05-17 15:02:24]   [Request CAVP] Request ARIA128(ECB) CAVP test file ...................... [OK]
+[2020-05-17 15:02:24] IoTyzer Client request CAVP ............................................... [OK]
+[2020-05-17 15:02:24] IoTyzer Client request test
+[2020-05-17 15:02:24]   [Request CAVP] Request ARIA128(ECB) CAVP test to target
+[2020-05-17 15:02:24]     Generate KAT Request 'ARIA128(ECB)KAT.rsp' done
+[2020-05-17 15:02:24]     [Request CAVP] Request ARIA128(ECB)KAT.rsp file ....................... [OK]
+[2020-05-17 15:02:24]     Generate MMT Request 'ARIA128(ECB)MMT.rsp' done
+[2020-05-17 15:02:24]     [Request CAVP] Request ARIA128(ECB)MMT.rsp file ....................... [OK]
+[2020-05-17 15:03:58]     Generate MCT Request 'ARIA128(ECB)MCT.rsp' done
+[2020-05-17 15:03:58]     [Request CAVP] Request ARIA128(ECB)MCT.rsp file ....................... [OK]
+[2020-05-17 15:03:58]   [Request CAVP] Request ARIA128(ECB) CAVP test to target ................. [OK]
+[2020-05-17 15:03:58] IoTyzer Client request test ............................................... [OK]
+[2020-05-17 15:03:58] IoTyzer Client request submit
+[2020-05-17 15:03:58]   [Request CAVP] Request ARIA128(ECB) CAVP test submission
+[2020-05-17 15:03:58]   Server info
+[2020-05-17 15:03:58]     Server IP Address : 127.0.0.1
+[2020-05-17 15:03:58]     Server Port : 9000
+[2020-05-17 15:03:58]     Connect server success
+[2020-05-17 15:03:58]     [Request submit] Send ARIA128(ECB)KAT.rsp file ........................ [OK]
+[2020-05-17 15:03:58]     [Request submit] ARIA128(ECB)KAT CAVP result .......................... [OK]
+[2020-05-17 15:03:59]     [Request submit] Send ARIA128(ECB)MMT.rsp file ........................ [OK]
+[2020-05-17 15:03:59]     [Request submit] ARIA128(ECB)MMT CAVP result .......................... [OK]
+[2020-05-17 15:03:59]     [Request submit] Send ARIA128(ECB)MCT.rsp file ........................ [OK]
+[2020-05-17 15:03:59]     [Request submit] ARIA128(ECB)MCT CAVP result .......................... [OK]
+[2020-05-17 15:03:59]     Socket closed
+[2020-05-17 15:03:59]   [Request CAVP] Request ARIA128(ECB) CAVP test submission ................ [OK]
+[2020-05-17 15:03:59] IoTyzer Client request submit ............................................. [OK]
+[2020-05-17 15:03:59] IoTyzer Client request CAVP
+[2020-05-17 15:03:59]   [Request CAVP] Request ARIA192(ECB) CAVP test file
+[2020-05-17 15:03:59]   Server info
+[2020-05-17 15:03:59]     Server IP Address : 127.0.0.1
+[2020-05-17 15:03:59]     Server Port : 9000
+[2020-05-17 15:03:59]     Connect server success
+[2020-05-17 15:03:59]     [Request CAVP] Recv ARIA192(ECB)KAT.req file .......................... [OK]
+[2020-05-17 15:04:00]     [Request CAVP] Recv ARIA192(ECB)MMT.req file .......................... [OK]
+[2020-05-17 15:04:00]     [Request CAVP] Recv ARIA192(ECB)MCT.req file .......................... [OK]
+[2020-05-17 15:04:00]     Socket closed
+[2020-05-17 15:04:00]   [Request CAVP] Request ARIA192(ECB) CAVP test file ...................... [OK]
+[2020-05-17 15:04:00] IoTyzer Client request CAVP ............................................... [OK]
+[2020-05-17 15:04:00] IoTyzer Client request test
+[2020-05-17 15:04:00]   [Request CAVP] Request ARIA192(ECB) CAVP test to target
+[2020-05-17 15:04:00]     Generate KAT Request 'ARIA192(ECB)KAT.rsp' done
+[2020-05-17 15:04:00]     [Request CAVP] Request ARIA192(ECB)KAT.rsp file ....................... [OK]
+[2020-05-17 15:04:00]     Generate MMT Request 'ARIA192(ECB)MMT.rsp' done
+[2020-05-17 15:04:00]     [Request CAVP] Request ARIA192(ECB)MMT.rsp file ....................... [OK]
+[2020-05-17 15:05:34]     Generate MCT Request 'ARIA192(ECB)MCT.rsp' done
+[2020-05-17 15:05:34]     [Request CAVP] Request ARIA192(ECB)MCT.rsp file ....................... [OK]
+[2020-05-17 15:05:34]   [Request CAVP] Request ARIA192(ECB) CAVP test to target ................. [OK]
+[2020-05-17 15:05:34] IoTyzer Client request test ............................................... [OK]
+[2020-05-17 15:05:34] IoTyzer Client request submit
+[2020-05-17 15:05:34]   [Request CAVP] Request ARIA192(ECB) CAVP test submission
+[2020-05-17 15:05:34]   Server info
+[2020-05-17 15:05:34]     Server IP Address : 127.0.0.1
+[2020-05-17 15:05:34]     Server Port : 9000
+[2020-05-17 15:05:34]     Connect server success
+[2020-05-17 15:05:34]     [Request submit] Send ARIA192(ECB)KAT.rsp file ........................ [OK]
+[2020-05-17 15:05:34]     [Request submit] ARIA192(ECB)KAT CAVP result .......................... [OK]
+[2020-05-17 15:05:34]     [Request submit] Send ARIA192(ECB)MMT.rsp file ........................ [OK]
+[2020-05-17 15:05:34]     [Request submit] ARIA192(ECB)MMT CAVP result .......................... [OK]
+[2020-05-17 15:05:35]     [Request submit] Send ARIA192(ECB)MCT.rsp file ........................ [OK]
+[2020-05-17 15:05:35]     [Request submit] ARIA192(ECB)MCT CAVP result .......................... [OK]
+[2020-05-17 15:05:35]     Socket closed
+[2020-05-17 15:05:35]   [Request CAVP] Request ARIA192(ECB) CAVP test submission ................ [OK]
+[2020-05-17 15:05:35] IoTyzer Client request submit ............................................. [OK]
+[2020-05-17 15:05:35] IoTyzer Client request CAVP
+[2020-05-17 15:05:35]   [Request CAVP] Request ARIA256(ECB) CAVP test file
+[2020-05-17 15:05:35]   Server info
+[2020-05-17 15:05:35]     Server IP Address : 127.0.0.1
+[2020-05-17 15:05:35]     Server Port : 9000
+[2020-05-17 15:05:35]     Connect server success
+[2020-05-17 15:05:35]     [Request CAVP] Recv ARIA256(ECB)KAT.req file .......................... [OK]
+[2020-05-17 15:05:35]     [Request CAVP] Recv ARIA256(ECB)MMT.req file .......................... [OK]
+[2020-05-17 15:05:36]     [Request CAVP] Recv ARIA256(ECB)MCT.req file .......................... [OK]
+[2020-05-17 15:05:36]     Socket closed
+[2020-05-17 15:05:36]   [Request CAVP] Request ARIA256(ECB) CAVP test file ...................... [OK]
+[2020-05-17 15:05:36] IoTyzer Client request CAVP ............................................... [OK]
+[2020-05-17 15:05:36] IoTyzer Client request test
+[2020-05-17 15:05:36]   [Request CAVP] Request ARIA256(ECB) CAVP test to target
+[2020-05-17 15:05:36]     Generate KAT Request 'ARIA256(ECB)KAT.rsp' done
+[2020-05-17 15:05:36]     [Request CAVP] Request ARIA256(ECB)KAT.rsp file ....................... [OK]
+[2020-05-17 15:05:36]     Generate MMT Request 'ARIA256(ECB)MMT.rsp' done
+[2020-05-17 15:05:36]     [Request CAVP] Request ARIA256(ECB)MMT.rsp file ....................... [OK]
+[2020-05-17 15:07:09]     Generate MCT Request 'ARIA256(ECB)MCT.rsp' done
+[2020-05-17 15:07:09]     [Request CAVP] Request ARIA256(ECB)MCT.rsp file ....................... [OK]
+[2020-05-17 15:07:09]   [Request CAVP] Request ARIA256(ECB) CAVP test to target ................. [OK]
+[2020-05-17 15:07:09] IoTyzer Client request test ............................................... [OK]
+[2020-05-17 15:07:09] IoTyzer Client request submit
+[2020-05-17 15:07:09]   [Request CAVP] Request ARIA256(ECB) CAVP test submission
+[2020-05-17 15:07:09]   Server info
+[2020-05-17 15:07:09]     Server IP Address : 127.0.0.1
+[2020-05-17 15:07:09]     Server Port : 9000
+[2020-05-17 15:07:09]     Connect server success
+[2020-05-17 15:07:10]     [Request submit] Send ARIA256(ECB)KAT.rsp file ........................ [OK]
+[2020-05-17 15:07:10]     [Request submit] ARIA256(ECB)KAT CAVP result .......................... [OK]
+[2020-05-17 15:07:10]     [Request submit] Send ARIA256(ECB)MMT.rsp file ........................ [OK]
+[2020-05-17 15:07:10]     [Request submit] ARIA256(ECB)MMT CAVP result .......................... [OK]
+[2020-05-17 15:07:10]     [Request submit] Send ARIA256(ECB)MCT.rsp file ........................ [OK]
+[2020-05-17 15:07:10]     [Request submit] ARIA256(ECB)MCT CAVP result .......................... [OK]
+[2020-05-17 15:07:10]     Socket closed
+[2020-05-17 15:07:10]   [Request CAVP] Request ARIA256(ECB) CAVP test submission ................ [OK]
+[2020-05-17 15:07:10] IoTyzer Client request submit ............................................. [OK]
+[2020-05-17 15:07:10] IoTyzer Client request CAVP
+[2020-05-17 15:07:10]   [Request CAVP] Request SEED(ECB) CAVP test file
+[2020-05-17 15:07:10]   Server info
+[2020-05-17 15:07:10]     Server IP Address : 127.0.0.1
+[2020-05-17 15:07:10]     Server Port : 9000
+[2020-05-17 15:07:10]     Connect server success
+[2020-05-17 15:07:11]     [Request CAVP] Recv SEED(ECB)KAT.req file ............................. [OK]
+[2020-05-17 15:07:11]     [Request CAVP] Recv SEED(ECB)MMT.req file ............................. [OK]
+[2020-05-17 15:07:11]     [Request CAVP] Recv SEED(ECB)MCT.req file ............................. [OK]
+[2020-05-17 15:07:11]     Socket closed
+[2020-05-17 15:07:11]   [Request CAVP] Request SEED(ECB) CAVP test file ......................... [OK]
+[2020-05-17 15:07:11] IoTyzer Client request CAVP ............................................... [OK]
+[2020-05-17 15:07:11] IoTyzer Client request test
+[2020-05-17 15:07:11]   [Request CAVP] Request SEED(ECB) CAVP test to target
+[2020-05-17 15:07:12]     Generate KAT Request 'SEED(ECB)KAT.rsp' done
+[2020-05-17 15:07:12]     [Request CAVP] Request SEED(ECB)KAT.rsp file .......................... [OK]
+[2020-05-17 15:07:12]     Generate MMT Request 'SEED(ECB)MMT.rsp' done
+[2020-05-17 15:07:12]     [Request CAVP] Request SEED(ECB)MMT.rsp file .......................... [OK]
+[2020-05-17 15:08:47]     Generate MCT Request 'SEED(ECB)MCT.rsp' done
+[2020-05-17 15:08:47]     [Request CAVP] Request SEED(ECB)MCT.rsp file .......................... [OK]
+[2020-05-17 15:08:47]   [Request CAVP] Request SEED(ECB) CAVP test to target .................... [OK]
+[2020-05-17 15:08:47] IoTyzer Client request test ............................................... [OK]
+[2020-05-17 15:08:47] IoTyzer Client request submit
+[2020-05-17 15:08:47]   [Request CAVP] Request SEED(ECB) CAVP test submission
+[2020-05-17 15:08:47]   Server info
+[2020-05-17 15:08:47]     Server IP Address : 127.0.0.1
+[2020-05-17 15:08:47]     Server Port : 9000
+[2020-05-17 15:08:47]     Connect server success
+[2020-05-17 15:08:47]     [Request submit] Send SEED(ECB)KAT.rsp file ........................... [OK]
+[2020-05-17 15:08:47]     [Request submit] SEED(ECB)KAT CAVP result ............................. [OK]
+[2020-05-17 15:08:47]     [Request submit] Send SEED(ECB)MMT.rsp file ........................... [OK]
+[2020-05-17 15:08:47]     [Request submit] SEED(ECB)MMT CAVP result ............................. [OK]
+[2020-05-17 15:08:48]     [Request submit] Send SEED(ECB)MCT.rsp file ........................... [OK]
+[2020-05-17 15:08:48]     [Request submit] SEED(ECB)MCT CAVP result ............................. [OK]
+[2020-05-17 15:08:48]     Socket closed
+[2020-05-17 15:08:48]   [Request CAVP] Request SEED(ECB) CAVP test submission ................... [OK]
+[2020-05-17 15:08:48] IoTyzer Client request submit ............................................. [OK]
+[2020-05-17 15:08:48] IoTyzer Client request CAVP
+[2020-05-17 15:08:48]   [Request CAVP] Request LEA128(ECB) CAVP test file
+[2020-05-17 15:08:48]   Server info
+[2020-05-17 15:08:48]     Server IP Address : 127.0.0.1
+[2020-05-17 15:08:48]     Server Port : 9000
+[2020-05-17 15:08:48]     Connect server success
+[2020-05-17 15:08:48]     [Request CAVP] Recv LEA128(ECB)KAT.req file ........................... [OK]
+[2020-05-17 15:08:48]     [Request CAVP] Recv LEA128(ECB)MMT.req file ........................... [OK]
+[2020-05-17 15:08:49]     [Request CAVP] Recv LEA128(ECB)MCT.req file ........................... [OK]
+[2020-05-17 15:08:49]     Socket closed
+[2020-05-17 15:08:49]   [Request CAVP] Request LEA128(ECB) CAVP test file ....................... [OK]
+[2020-05-17 15:08:49] IoTyzer Client request CAVP ............................................... [OK]
+[2020-05-17 15:08:49] IoTyzer Client request test
+[2020-05-17 15:08:49]   [Request CAVP] Request LEA128(ECB) CAVP test to target
+[2020-05-17 15:08:49]     Generate KAT Request 'LEA128(ECB)KAT.rsp' done
+[2020-05-17 15:08:49]     [Request CAVP] Request LEA128(ECB)KAT.rsp file ........................ [OK]
+[2020-05-17 15:08:49]     Generate MMT Request 'LEA128(ECB)MMT.rsp' done
+[2020-05-17 15:08:49]     [Request CAVP] Request LEA128(ECB)MMT.rsp file ........................ [OK]
+[2020-05-17 15:10:27]     Generate MCT Request 'LEA128(ECB)MCT.rsp' done
+[2020-05-17 15:10:27]     [Request CAVP] Request LEA128(ECB)MCT.rsp file ........................ [OK]
+[2020-05-17 15:10:27]   [Request CAVP] Request LEA128(ECB) CAVP test to target .................. [OK]
+[2020-05-17 15:10:27] IoTyzer Client request test ............................................... [OK]
+[2020-05-17 15:10:27] IoTyzer Client request submit
+[2020-05-17 15:10:27]   [Request CAVP] Request LEA128(ECB) CAVP test submission
+[2020-05-17 15:10:27]   Server info
+[2020-05-17 15:10:27]     Server IP Address : 127.0.0.1
+[2020-05-17 15:10:27]     Server Port : 9000
+[2020-05-17 15:10:27]     Connect server success
+[2020-05-17 15:10:27]     [Request submit] Send LEA128(ECB)KAT.rsp file ......................... [OK]
+[2020-05-17 15:10:27]     [Request submit] LEA128(ECB)KAT CAVP result ........................... [OK]
+[2020-05-17 15:10:27]     [Request submit] Send LEA128(ECB)MMT.rsp file ......................... [OK]
+[2020-05-17 15:10:27]     [Request submit] LEA128(ECB)MMT CAVP result ........................... [OK]
+[2020-05-17 15:10:28]     [Request submit] Send LEA128(ECB)MCT.rsp file ......................... [OK]
+[2020-05-17 15:10:28]     [Request submit] LEA128(ECB)MCT CAVP result ........................... [OK]
+[2020-05-17 15:10:28]     Socket closed
+[2020-05-17 15:10:28]   [Request CAVP] Request LEA128(ECB) CAVP test submission ................. [OK]
+[2020-05-17 15:10:28] IoTyzer Client request submit ............................................. [OK]
+[2020-05-17 15:10:28] IoTyzer Client request CAVP
+[2020-05-17 15:10:28]   [Request CAVP] Request LEA192(ECB) CAVP test file
+[2020-05-17 15:10:28]   Server info
+[2020-05-17 15:10:28]     Server IP Address : 127.0.0.1
+[2020-05-17 15:10:28]     Server Port : 9000
+[2020-05-17 15:10:28]     Connect server success
+[2020-05-17 15:10:28]     [Request CAVP] Recv LEA192(ECB)KAT.req file ........................... [OK]
+[2020-05-17 15:10:28]     [Request CAVP] Recv LEA192(ECB)MMT.req file ........................... [OK]
+[2020-05-17 15:10:29]     [Request CAVP] Recv LEA192(ECB)MCT.req file ........................... [OK]
+[2020-05-17 15:10:29]     Socket closed
+[2020-05-17 15:10:29]   [Request CAVP] Request LEA192(ECB) CAVP test file ....................... [OK]
+[2020-05-17 15:10:29] IoTyzer Client request CAVP ............................................... [OK]
+[2020-05-17 15:10:29] IoTyzer Client request test
+[2020-05-17 15:10:29]   [Request CAVP] Request LEA192(ECB) CAVP test to target
+[2020-05-17 15:10:29]     Generate KAT Request 'LEA192(ECB)KAT.rsp' done
+[2020-05-17 15:10:29]     [Request CAVP] Request LEA192(ECB)KAT.rsp file ........................ [OK]
+[2020-05-17 15:10:29]     Generate MMT Request 'LEA192(ECB)MMT.rsp' done
+[2020-05-17 15:10:29]     [Request CAVP] Request LEA192(ECB)MMT.rsp file ........................ [OK]
+[2020-05-17 15:12:09]     Generate MCT Request 'LEA192(ECB)MCT.rsp' done
+[2020-05-17 15:12:09]     [Request CAVP] Request LEA192(ECB)MCT.rsp file ........................ [OK]
+[2020-05-17 15:12:09]   [Request CAVP] Request LEA192(ECB) CAVP test to target .................. [OK]
+[2020-05-17 15:12:09] IoTyzer Client request test ............................................... [OK]
+[2020-05-17 15:12:09] IoTyzer Client request submit
+[2020-05-17 15:12:09]   [Request CAVP] Request LEA192(ECB) CAVP test submission
+[2020-05-17 15:12:09]   Server info
+[2020-05-17 15:12:09]     Server IP Address : 127.0.0.1
+[2020-05-17 15:12:09]     Server Port : 9000
+[2020-05-17 15:12:09]     Connect server success
+[2020-05-17 15:12:09]     [Request submit] Send LEA192(ECB)KAT.rsp file ......................... [OK]
+[2020-05-17 15:12:09]     [Request submit] LEA192(ECB)KAT CAVP result ........................... [OK]
+[2020-05-17 15:12:09]     [Request submit] Send LEA192(ECB)MMT.rsp file ......................... [OK]
+[2020-05-17 15:12:09]     [Request submit] LEA192(ECB)MMT CAVP result ........................... [OK]
+[2020-05-17 15:12:10]     [Request submit] Send LEA192(ECB)MCT.rsp file ......................... [OK]
+[2020-05-17 15:12:10]     [Request submit] LEA192(ECB)MCT CAVP result ........................... [OK]
+[2020-05-17 15:12:10]     Socket closed
+[2020-05-17 15:12:10]   [Request CAVP] Request LEA192(ECB) CAVP test submission ................. [OK]
+[2020-05-17 15:12:10] IoTyzer Client request submit ............................................. [OK]
+[2020-05-17 15:12:10] IoTyzer Client request CAVP
+[2020-05-17 15:12:10]   [Request CAVP] Request LEA256(ECB) CAVP test file
+[2020-05-17 15:12:10]   Server info
+[2020-05-17 15:12:10]     Server IP Address : 127.0.0.1
+[2020-05-17 15:12:10]     Server Port : 9000
+[2020-05-17 15:12:10]     Connect server success
+[2020-05-17 15:12:10]     [Request CAVP] Recv LEA256(ECB)KAT.req file ........................... [OK]
+[2020-05-17 15:12:10]     [Request CAVP] Recv LEA256(ECB)MMT.req file ........................... [OK]
+[2020-05-17 15:12:11]     [Request CAVP] Recv LEA256(ECB)MCT.req file ........................... [OK]
+[2020-05-17 15:12:11]     Socket closed
+[2020-05-17 15:12:11]   [Request CAVP] Request LEA256(ECB) CAVP test file ....................... [OK]
+[2020-05-17 15:12:11] IoTyzer Client request CAVP ............................................... [OK]
+[2020-05-17 15:12:11] IoTyzer Client request test
+[2020-05-17 15:12:11]   [Request CAVP] Request LEA256(ECB) CAVP test to target
+[2020-05-17 15:12:11]     Generate KAT Request 'LEA256(ECB)KAT.rsp' done
+[2020-05-17 15:12:11]     [Request CAVP] Request LEA256(ECB)KAT.rsp file ........................ [OK]
+[2020-05-17 15:12:11]     Generate MMT Request 'LEA256(ECB)MMT.rsp' done
+[2020-05-17 15:12:11]     [Request CAVP] Request LEA256(ECB)MMT.rsp file ........................ [OK]
+[2020-05-17 15:13:47]     Generate MCT Request 'LEA256(ECB)MCT.rsp' done
+[2020-05-17 15:13:47]     [Request CAVP] Request LEA256(ECB)MCT.rsp file ........................ [OK]
+[2020-05-17 15:13:47]   [Request CAVP] Request LEA256(ECB) CAVP test to target .................. [OK]
+[2020-05-17 15:13:47] IoTyzer Client request test ............................................... [OK]
+[2020-05-17 15:13:47] IoTyzer Client request submit
+[2020-05-17 15:13:47]   [Request CAVP] Request LEA256(ECB) CAVP test submission
+[2020-05-17 15:13:47]   Server info
+[2020-05-17 15:13:47]     Server IP Address : 127.0.0.1
+[2020-05-17 15:13:47]     Server Port : 9000
+[2020-05-17 15:13:47]     Connect server success
+[2020-05-17 15:13:47]     [Request submit] Send LEA256(ECB)KAT.rsp file ......................... [OK]
+[2020-05-17 15:13:47]     [Request submit] LEA256(ECB)KAT CAVP result ........................... [OK]
+[2020-05-17 15:13:48]     [Request submit] Send LEA256(ECB)MMT.rsp file ......................... [OK]
+[2020-05-17 15:13:48]     [Request submit] LEA256(ECB)MMT CAVP result ........................... [OK]
+[2020-05-17 15:13:48]     [Request submit] Send LEA256(ECB)MCT.rsp file ......................... [OK]
+[2020-05-17 15:13:48]     [Request submit] LEA256(ECB)MCT CAVP result ........................... [OK]
+[2020-05-17 15:13:48]     Socket closed
+[2020-05-17 15:13:48]   [Request CAVP] Request LEA256(ECB) CAVP test submission ................. [OK]
+[2020-05-17 15:13:48] IoTyzer Client request submit ............................................. [OK]

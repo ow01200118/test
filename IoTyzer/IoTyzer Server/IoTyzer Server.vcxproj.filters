@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\util">
+      <UniqueIdentifier>{0c62f698-af7a-4f51-b838-81dff3d0a272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\util">
+      <UniqueIdentifier>{41b523b1-fc07-4296-b993-aec04f0e54b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\IoTyzer">
+      <UniqueIdentifier>{d748ec8b-3cfa-4dd8-9c5a-3022e5ff7e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\crypto">
+      <UniqueIdentifier>{4f5f4c46-c04f-4a75-a33a-61e312f19bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\socket">
+      <UniqueIdentifier>{8c5f9d53-683c-49fb-9abe-4d81442e9a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\socket">
+      <UniqueIdentifier>{941a6e23-e779-4013-86d1-7272f8f3f1db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\cavp">
+      <UniqueIdentifier>{026d098d-1a39-4a44-b708-f776153f6595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\crypto">
+      <UniqueIdentifier>{9db406da-76fa-48ba-8f75-fa60ef43c916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\cavp">
+      <UniqueIdentifier>{8b3e9f8c-cb9e-4da3-8817-ba931938be47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\IoTyzerServer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\print.c">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\socket\socket.c">
+      <Filter>소스 파일\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\crypto\rand.c">
+      <Filter>소스 파일\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\crypto\aria.c">
+      <Filter>소스 파일\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\casting.c">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cavp\kor_kat_test_s.c">
+      <Filter>소스 파일\cavp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cavp\kor_mct_test_s.c">
+      <Filter>소스 파일\cavp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cavp\kor_mmt_test_s.c">
+      <Filter>소스 파일\cavp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\crypto\mode_of_operate.c">
+      <Filter>소스 파일\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\crypto\lea.c">
+      <Filter>소스 파일\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\crypto\seed.c">
+      <Filter>소스 파일\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cavp\cavp_server.c">
+      <Filter>소스 파일\cavp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cavp\cavp.c">
+      <Filter>소스 파일\cavp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\util\print.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IoTyzer\define.h">
+      <Filter>헤더 파일\IoTyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\socket\socket.h">
+      <Filter>헤더 파일\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IoTyzer\return.h">
+      <Filter>헤더 파일\IoTyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IoTyzerServer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\cavp\kor_kat_test.h">
+      <Filter>헤더 파일\cavp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\cavp\kor_mct_test.h">
+      <Filter>헤더 파일\cavp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\cavp\kor_mmt_test.h">
+      <Filter>헤더 파일\cavp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\crypto\rand.h">
+      <Filter>헤더 파일\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\util\casting.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\crypto\aria.h">
+      <Filter>헤더 파일\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\crypto\mode_of_operate.h">
+      <Filter>헤더 파일\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\crypto\lea.h">
+      <Filter>헤더 파일\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\crypto\seed.h">
+      <Filter>헤더 파일\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\cavp\cavp.h">
+      <Filter>헤더 파일\cavp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

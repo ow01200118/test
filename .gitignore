@@ -1,0 +1,6 @@
+##ignore
+
+*.pdf
+
+.vs
+doc/
