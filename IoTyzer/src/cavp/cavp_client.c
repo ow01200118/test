@@ -4,6 +4,9 @@
 #include <cavp/kor_kat_test.h>
 #include <cavp/kor_mmt_test.h>
 #include <cavp/kor_mct_test.h>
+#include <cavp/kor_hash_short_test.h>
+#include <cavp/kor_hash_long_test.h>
+#include <cavp/kor_hash_mct_test.h>
 
 #include <util/print.h>
 
@@ -29,7 +32,7 @@ IOTZ_RETURN iotz_cavp_server_connect(IOTZ_SOCKET* cSocket)
     return IOTZ_OK;
 }
 
-IOTZ_RETURN iotz_request_cavp(IOTZ_CAVP_TEST_CODE code)
+IOTZ_RETURN iotz_request_test_vector(IOTZ_CAVP_TEST_CODE code)
 {
     IOTZ_UBYTE buf[IOTZ_SOCKET_BUF_SIZE] = { 0x00, };
     IOTZ_CAVP_FRAME* pFrame = (IOTZ_CAVP_FRAME*)buf;
@@ -57,11 +60,8 @@ IOTZ_RETURN iotz_request_cavp(IOTZ_CAVP_TEST_CODE code)
 
     if (code >= IOTZ_ARIA_128_ECB && code <= IOTZ_LEA_256_CTR) {
         // KAT recv req file
-#ifdef _MSC_VER
-        sprintf_s(fileName, FILE_NAME_SIZE, "%s%sKAT.req", PREFIX_FILE_PATH, str);
-#else
         sprintf(fileName, "%s%sKAT.req", PREFIX_FILE_PATH, str);
-#endif
+
         ret = iotz_recv_test_file(fileName, cSocket);
         print_return_msg(ret, "    [Request CAVP] Recv %sKAT.req file", str);
         if (ret != IOTZ_OK)
@@ -70,11 +70,8 @@ IOTZ_RETURN iotz_request_cavp(IOTZ_CAVP_TEST_CODE code)
         }
 
         // MMT recv req file
-#ifdef _MSC_VER
-        sprintf_s(fileName, FILE_NAME_SIZE, "%s%sMMT.req", PREFIX_FILE_PATH, str);
-#else
         sprintf(fileName, "%s%sMMT.req", PREFIX_FILE_PATH, str);
-#endif
+
         ret = iotz_recv_test_file(fileName, cSocket);
         print_return_msg(ret, "    [Request CAVP] Recv %sMMT.req file", str);
         if (ret != IOTZ_OK)
@@ -83,11 +80,8 @@ IOTZ_RETURN iotz_request_cavp(IOTZ_CAVP_TEST_CODE code)
         }
         
         // MCT recv req file
-#ifdef _MSC_VER
-        sprintf_s(fileName, FILE_NAME_SIZE, "%s%sMCT.req", PREFIX_FILE_PATH, str);
-#else
         sprintf(fileName, "%s%sMCT.req", PREFIX_FILE_PATH, str);
-#endif
+
         ret = iotz_recv_test_file(fileName, cSocket);
         print_return_msg(ret, "    [Request CAVP] Recv %sMCT.req file", str);
         if (ret != IOTZ_OK)
@@ -95,12 +89,9 @@ IOTZ_RETURN iotz_request_cavp(IOTZ_CAVP_TEST_CODE code)
             return IOTZ_SERVER_REQ_CAVP_ERROR;
         }
     } else if (code >= IOTZ_SHA_224 && code <= IOTZ_SHA_512) {
-        // "Short" recv req file
-#ifdef _MSC_VER
-        sprintf_s(fileName, FILE_NAME_SIZE, "%s%sShortMsg.req", PREFIX_FILE_PATH, str);
-#else
+        // recv ShortMsg req file
         sprintf(fileName, "%s%sShortMsg.req", PREFIX_FILE_PATH, str);
-#endif
+
         ret = iotz_recv_test_file(fileName, cSocket);
         print_return_msg(ret, "    [Request CAVP] Recv %sShortMsg.req file", str);
         if (ret != IOTZ_OK)
@@ -108,12 +99,9 @@ IOTZ_RETURN iotz_request_cavp(IOTZ_CAVP_TEST_CODE code)
             return IOTZ_SERVER_REQ_CAVP_ERROR;
         }
 
-        // "Long" recv req file
-#ifdef _MSC_VER
-        sprintf_s(fileName, FILE_NAME_SIZE, "%s%sLongMsg.req", PREFIX_FILE_PATH, str);
-#else
+        // recv LongMsg req file
         sprintf(fileName, "%s%sLongMsg.req", PREFIX_FILE_PATH, str);
-#endif
+        
         ret = iotz_recv_test_file(fileName, cSocket);
         print_return_msg(ret, "    [Request CAVP] Recv %sLongMsg.req file", str);
         if (ret != IOTZ_OK)
@@ -121,12 +109,9 @@ IOTZ_RETURN iotz_request_cavp(IOTZ_CAVP_TEST_CODE code)
             return IOTZ_SERVER_REQ_CAVP_ERROR;
         }
 
-        // "MCT" recv req file
-#ifdef _MSC_VER
-        sprintf_s(fileName, FILE_NAME_SIZE, "%s%sMonte.req", PREFIX_FILE_PATH, str);
-#else
+        // recv Monte req file
         sprintf(fileName, "%s%sLongMsg.req", PREFIX_FILE_PATH, str);
-#endif
+
         ret = iotz_recv_test_file(fileName, cSocket);
         print_return_msg(ret, "    [Request CAVP] Recv %sMonte.req file", str);
         if (ret != IOTZ_OK)
@@ -134,7 +119,6 @@ IOTZ_RETURN iotz_request_cavp(IOTZ_CAVP_TEST_CODE code)
             return IOTZ_SERVER_REQ_CAVP_ERROR;
         }           
     }
-
 
     ret = close_socket(&cSocket);
     if (ret != IOTZ_OK)
@@ -147,7 +131,7 @@ IOTZ_RETURN iotz_request_cavp(IOTZ_CAVP_TEST_CODE code)
     return IOTZ_OK;
 }
 
-IOTZ_RETURN iotz_request_test(IOTZ_CAVP_TEST_CODE code)
+IOTZ_RETURN iotz_request_bc_test(IOTZ_CAVP_TEST_CODE code)
 {
     IOTZ_CHAR str[FILE_NAME_SIZE] = "";
     IOTZ_BLOCK_CIPHER_TEST_SET bcSet;
@@ -187,12 +171,31 @@ IOTZ_RETURN iotz_request_test(IOTZ_CAVP_TEST_CODE code)
         return IOTZ_SERVER_REQ_TEST_ERROR;
     }
 
-    
-
     return IOTZ_OK;
 }
 
+IOTZ_RETURN iotz_request_hash_test(IOTZ_CAVP_TEST_CODE code)
+{
+    IOTZ_CHAR str[FILE_NAME_SIZE] = "";
+    IOTZ_HASH_TEST_SET set;
+    IOTZ_RETURN ret = IOTZ_OK;
 
+    iotz_get_hash_set(code, &set);
+
+    sprintf(str, "%s", iotz_get_file_name(code));
+
+    // generate ShortMsg rsp file
+    ret = iotz_gen_rsp_hash_korea_short_test(str, set.alg);
+    print_return_msg(ret, "     [Request CAVP] Request %sShortMsg.rsp file", str);
+
+    if (ret != IOTZ_OK) {
+        return IOTZ_SERVER_REQ_TEST_ERROR;
+    }
+    // generate LongMsg rsp file
+    // generate Monte rsp file
+
+    return IOTZ_OK;
+}
 
 IOTZ_RETURN iotz_request_submit(IOTZ_CAVP_TEST_CODE code)
 {

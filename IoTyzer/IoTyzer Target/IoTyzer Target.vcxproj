@@ -131,7 +131,7 @@ copy /y "$(TargetPath)" "$(SolutionDir)..\output\$(TargetFileName)"</Command>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -152,6 +152,7 @@ copy /y "$(TargetPath)" "$(SolutionDir)..\output\$(TargetFileName)"</Command>
     <ClCompile Include="..\src\crypto\lea.c" />
     <ClCompile Include="..\src\crypto\mode_of_operate.c" />
     <ClCompile Include="..\src\crypto\seed.c" />
+    <ClCompile Include="..\src\crypto\sha2.c" />
     <ClCompile Include="..\src\IoTyzerTarget.c" />
     <ClCompile Include="..\src\util\casting.c" />
     <ClCompile Include="..\src\util\print.c" />
@@ -162,6 +163,7 @@ copy /y "$(TargetPath)" "$(SolutionDir)..\output\$(TargetFileName)"</Command>
     <ClInclude Include="..\inc\crypto\lea.h" />
     <ClInclude Include="..\inc\crypto\mode_of_operate.h" />
     <ClInclude Include="..\inc\crypto\seed.h" />
+    <ClInclude Include="..\inc\crypto\sha2.h" />
     <ClInclude Include="..\inc\IoTyzerTarget.h" />
     <ClInclude Include="..\inc\IoTyzer\define.h" />
     <ClInclude Include="..\inc\IoTyzer\return.h" />

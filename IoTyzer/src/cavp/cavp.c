@@ -186,7 +186,7 @@ IOTZ_RETURN iotz_get_block_cipher_set(IOTZ_CAVP_TEST_CODE code, IOTZ_BLOCK_CIPHE
 	return IOTZ_OK;
 }
 
-IOTZ_RETURN iotz_get_block_cipher_set(IOTZ_CAVP_TEST_CODE code, IOTZ_HASH_TEST_SET *set)
+IOTZ_RETURN iotz_get_hash_set(IOTZ_CAVP_TEST_CODE code, IOTZ_HASH_TEST_SET *set)
 {
 	switch (code)
 	{

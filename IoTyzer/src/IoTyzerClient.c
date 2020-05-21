@@ -33,34 +33,11 @@ IOTZ_RETURN main()
 
     test_dev_info();
 
-    code = IOTZ_ARIA_128_ECB;
-
-    print_msg("IoTyzer Client  : \"request\" CAVP");
-    ret = test_iotz_request_cavp(code);
-    print_return_msg(ret, "IoTyzer Client request CAVP");
+    code = IOTZ_SHA_224;
 
     print_msg("IoTyzer Client request test");
     ret = test_iotz_request_test(code);
-    print_return_msg(ret, "IoTyzer Client request test");
-
-    print_msg("IoTyzer Client request submit");
-    ret = test_iotz_request_submit(code);
-    print_return_msg(ret, "IoTyzer Client request submit");
-
-    for (code = IOTZ_ARIA_128_ECB; code < IOTZ_LEA_256_CTR; code += IOTZ_ARIA_192_ECB)
-    {
-        print_msg("IoTyzer Client request CAVP");
-        ret = test_iotz_request_cavp(code);
-        print_return_msg(ret, "IoTyzer Client request CAVP");
-
-        print_msg("IoTyzer Client request test");
-        ret = test_iotz_request_test(code);
-        print_return_msg(ret, "IoTyzer Client request test");
-
-        print_msg("IoTyzer Client request submit");
-        ret = test_iotz_request_submit(code);
-        print_return_msg(ret, "IoTyzer Client request submit");
-    }
+    print_return_msg(ret, "return msg(request test to target)");    
 
 #ifdef _MSC_VER
     system("pause");
@@ -97,7 +74,7 @@ IOTZ_RETURN test_iotz_request_cavp(IOTZ_CAVP_TEST_CODE code)
 #endif
 
     print_msg("  [Request CAVP] Request %s CAVP test file", str);
-    ret = iotz_request_cavp(code);
+    ret = iotz_request_testvector(code);
     print_return_msg(ret, "  [Request CAVP] Request %s CAVP test file", str);
     if (ret != IOTZ_OK)
         return IOTZ_SERVER_RES_CAVP_ERROR;
@@ -117,7 +94,7 @@ IOTZ_RETURN test_iotz_request_test(IOTZ_CAVP_TEST_CODE code)
 #endif
 
     print_msg("  [Request CAVP] Request %s CAVP test to target", str);
-    ret = iotz_request_test(code);
+    ret = iotz_request_bc_test(code);
     print_return_msg(ret, "  [Request CAVP] Request %s CAVP test to target", str);
     if (ret != IOTZ_OK)
         return IOTZ_SERVER_RES_SUBMIT_ERROR;

@@ -63,6 +63,9 @@
     <ClCompile Include="..\src\cavp\cavp.c">
       <Filter>소스 파일\cavp</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\cavp\kor_hash_short_test_c.c">
+      <Filter>소스 파일\cavp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\inc\util\print.h">

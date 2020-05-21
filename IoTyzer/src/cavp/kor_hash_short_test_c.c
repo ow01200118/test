@@ -8,20 +8,6 @@
 
 #include <cavp/kor_hash_short_test.h>
 
-void skip_param(FILE **fp)
-{
-    char tmp;
-
-    while(*(*fp)->_ptr != ' ')
-        fread(&tmp, 1, 1, *fp);
-    
-    while(*(*fp)->_ptr != '\n')
-        fread(&tmp, 1, 1, *fp);
-
-    /*  skip \n     */
-    fread(&tmp, 1, 1, *fp);
-}
-
 IOTZ_RETURN iotz_read_hash_short_req(
     IOTZ_FILE *fp,
     IOTZ_UBYTE *msg,
@@ -29,10 +15,19 @@ IOTZ_RETURN iotz_read_hash_short_req(
 )
 {
     IOTZ_CHAR buf[BUF_SIZE * 2] = "";
-
+    char tmp;
     /*  skip L = 28, L = 32, L = 48, L = 64     */
-    skip_param(&fp);
-    skip_param(&fp);
+
+    while (tmp != ' ')
+        fread(&tmp, 1, 1, fp);
+    while (tmp != '\n')
+        fread(&tmp, 1, 1, fp);
+
+    while (tmp != ' ')
+        fread(&tmp, 1, 1, fp);
+    while (tmp != '\n')
+        fread(&tmp, 1, 1, fp);
+
 
 ///////////////////////////////////////////////////////
     memset(buf, 0x00, BUF_SIZE);
@@ -43,7 +38,7 @@ IOTZ_RETURN iotz_read_hash_short_req(
     if (fscanf(fp, "Msg = %s\n", buf) <= 0)
         return IOTZ_HASH_SHORT_FILE_READ_ERROR;
 #endif
-    asc_to_byte(msg_len, buf, (IOTZ_INT)strlen(buf));
+    asc_to_byte(msg, buf, (IOTZ_INT)strlen(buf));
     *msg_len = (IOTZ_INT)(strlen(buf) >> 1);
 ////////////////////////////////////////////////////////
 
@@ -55,7 +50,7 @@ IOTZ_RETURN iotz_write_hash_short_rsp(
     IOTZ_UBYTE *msg,
     IOTZ_UBYTE msg_len,
     IOTZ_UBYTE *hash,
-    IOTZ_HASH_ALG alg,
+    IOTZ_HASH_ALG alg
 )
 {
     IOTZ_INT i = 0;
@@ -142,11 +137,40 @@ IOTZ_RETURN iotz_write_hash_short_rsp(
 
 IOTZ_RETURN iotz_gen_rsp_hash_korea_short_test(
     const IOTZ_CHAR* file_name,
-    IOTZ_HASH_ALG alg,
+    IOTZ_HASH_ALG alg
 )
 {
     IOTZ_CHAR name[FILE_NAME_SIZE] = {0x00, };
     IOTZ_UBYTE msg[BUF_SIZE * 2] = {0x00, };
+    IOTZ_UBYTE hash[512] = {0x00, };
+    IOTZ_INT msg_len, hash_len;
+    IOTZ_FILE *fp1 = NULL, *fp2 = NULL;
 
-    
+    sprintf(name, "%s%sShortMsg.req", PREFIX_FILE_PATH, file_name);
+    fp1 = fopen(name, "rt");
+    sprintf(name, "%s%sShortMsg.rsp", PREFIX_FILE_PATH, file_name);
+    fp2 = fopen(name, "wt");
+
+    if ((fp1 == NULL) || (fp2 == NULL)) {
+        print_error_msg("   KAT file open fail");
+
+        return IOTZ_HASH_SHORT_FILE_OPEN_ERROR;
+    }
+
+    while (!feof(fp1)) {
+        memset(msg, 0x00, BUF_SIZE * 2);
+
+        iotz_read_hash_short_req(fp1, msg, &msg_len);
+
+        query_hash(hash, &hash_len, msg, msg_len, alg);
+        
+        iotyz_write_hash_short_rsp(fp2, msg, msg_len, hash, alg);
+    }
+
+    fclose(fp1);
+    fclose(fp2);
+
+    print_log("     Generate Hash response file \'%sKAT.rsp\' done", file_name);
+
+    return IOTZ_OK;
 }

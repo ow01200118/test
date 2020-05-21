@@ -131,7 +131,7 @@ copy /y "$(TargetPath)" "$(SolutionDir)..\output\$(TargetFileName)"</Command>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -149,6 +149,7 @@ copy /y "$(TargetPath)" "$(SolutionDir)..\output\$(TargetFileName)"</Command>
   <ItemGroup>
     <ClCompile Include="..\src\cavp\cavp.c" />
     <ClCompile Include="..\src\cavp\cavp_server.c" />
+    <ClCompile Include="..\src\cavp\kor_hash_short_test_c.c" />
     <ClCompile Include="..\src\cavp\kor_kat_test_s.c" />
     <ClCompile Include="..\src\cavp\kor_mct_test_s.c" />
     <ClCompile Include="..\src\cavp\kor_mmt_test_s.c" />
@@ -157,6 +158,7 @@ copy /y "$(TargetPath)" "$(SolutionDir)..\output\$(TargetFileName)"</Command>
     <ClCompile Include="..\src\crypto\mode_of_operate.c" />
     <ClCompile Include="..\src\crypto\rand.c" />
     <ClCompile Include="..\src\crypto\seed.c" />
+    <ClCompile Include="..\src\crypto\sha2.c" />
     <ClCompile Include="..\src\IoTyzerServer.c" />
     <ClCompile Include="..\src\socket\socket.c" />
     <ClCompile Include="..\src\util\casting.c" />
@@ -172,6 +174,7 @@ copy /y "$(TargetPath)" "$(SolutionDir)..\output\$(TargetFileName)"</Command>
     <ClInclude Include="..\inc\crypto\mode_of_operate.h" />
     <ClInclude Include="..\inc\crypto\rand.h" />
     <ClInclude Include="..\inc\crypto\seed.h" />
+    <ClInclude Include="..\inc\crypto\sha2.h" />
     <ClInclude Include="..\inc\IoTyzerServer.h" />
     <ClInclude Include="..\inc\IoTyzer\define.h" />
     <ClInclude Include="..\inc\IoTyzer\return.h" />

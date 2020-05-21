@@ -1,11 +1,11 @@
-﻿  cavp.c
-  cavp_client.c
+﻿  cavp_client.c
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\src\cavp\cavp_client.c(63,9): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\src\cavp\cavp_client.c(73,9): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\src\cavp\cavp_client.c(83,9): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\src\cavp\cavp_client.c(93,9): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\src\cavp\cavp_client.c(103,9): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\src\cavp\cavp_client.c(113,9): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\src\cavp\cavp_client.c(185,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   kor_kat_test_c.c
-  kor_mct_test_c.c
-  kor_mmt_test_c.c
-  IoTyzerClient.c
-  socket.c
-  casting.c
   print.c
   코드를 생성하고 있습니다...
-  IoTyzer Client.vcxproj -> C:\Users\walker\Desktop\eyl원본\IoTyzer\x64\Debug\IoTyzer Client.exe

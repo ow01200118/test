@@ -84,6 +84,12 @@
     <ClCompile Include="..\src\cavp\cavp.c">
       <Filter>소스 파일\cavp</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\cavp\kor_hash_short_test_c.c">
+      <Filter>소스 파일\cavp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\crypto\sha2.c">
+      <Filter>소스 파일\crypto</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\inc\util\print.h">
@@ -130,6 +136,9 @@
     </ClInclude>
     <ClInclude Include="..\inc\cavp\cavp.h">
       <Filter>헤더 파일\cavp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\crypto\sha2.h">
+      <Filter>헤더 파일\crypto</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

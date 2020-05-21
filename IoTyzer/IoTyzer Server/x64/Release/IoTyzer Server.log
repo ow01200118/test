@@ -1,1 +1,11 @@
-﻿
+﻿  kor_hash_short_test_c.c
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\src\cavp\kor_hash_short_test_c.c(165,19): warning C4013: 'query_hash'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\src\cavp\kor_hash_short_test_c.c(167,35): warning C4013: 'iotyz_write_hash_short_rsp'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\src\cavp\kor_hash_short_test_c.c(149,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\src\cavp\kor_hash_short_test_c.c(150,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\src\cavp\kor_hash_short_test_c.c(151,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\src\cavp\kor_hash_short_test_c.c(152,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  sha2.c
+kor_hash_short_test_c.obj : error LNK2001: iotyz_write_hash_short_rsp 외부 기호를 확인할 수 없습니다.
+kor_hash_short_test_c.obj : error LNK2001: query_hash 외부 기호를 확인할 수 없습니다.
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\x64\Release\IoTyzer Server.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.

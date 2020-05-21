@@ -1,10 +1,2 @@
-﻿  comm.c
-  aria.c
-  lea.c
-  mode_of_operate.c
-  seed.c
-  IoTyzerTarget.c
-  casting.c
-  print.c
-  코드를 생성하고 있습니다...
-  IoTyzer Target.vcxproj -> C:\Users\walker\Desktop\eyl원본\IoTyzer\x64\Debug\IoTyzer Target.exe
+﻿IoTyzerTarget.obj : error LNK2019: sha2 외부 기호(참조 위치: hash 함수)에서 확인하지 못했습니다.
+C:\Users\wihansaem\바탕 화면\iotyzer-cavp\iotyzer-cavp\IoTyzer\x64\Debug\IoTyzer Target.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

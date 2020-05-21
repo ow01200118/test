@@ -231,7 +231,7 @@ IOTZ_RETURN iotz_gen_rsp_blockcipher_korea_kat_test(
     fclose(fp1);
     fclose(fp2);
 
-    print_log("    Generate KAT Request \'%sKAT.rsp\' done", fName);
+    print_log("    Generate KAT respnse file \'%sKAT.rsp\' done", fName);
 
     return IOTZ_OK;
 }

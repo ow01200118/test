@@ -60,6 +60,9 @@
     <ClCompile Include="..\src\comm\comm.c">
       <Filter>소스 파일\comm</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\crypto\sha2.c">
+      <Filter>소스 파일\crypto</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\inc\util\print.h">
@@ -91,6 +94,9 @@
     </ClInclude>
     <ClInclude Include="..\inc\IoTyzerTarget.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\crypto\sha2.h">
+      <Filter>헤더 파일\crypto</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

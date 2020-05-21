@@ -89,17 +89,27 @@ IOTZ_RETURN iotz_cavp_server_service(IOTZ_SOCKET* lSocket);
 IOTZ_RETURN iotz_cavp_server_connect(IOTZ_SOCKET* cSocket);
 
 IOTZ_CHAR* iotz_get_file_name(IOTZ_CAVP_TEST_CODE code);
+
 IOTZ_RETURN iotz_get_block_cipher_set(IOTZ_CAVP_TEST_CODE code, IOTZ_BLOCK_CIPHER_TEST_SET* set);
+IOTZ_RETURN iotz_get_hash_set(IOTZ_CAVP_TEST_CODE code, IOTZ_HASH_TEST_SET *set);
+
 IOTZ_RETURN iotz_send_test_file(const IOTZ_CHAR* fileName, const IOTZ_SOCKET fSocket);
+
 IOTZ_RETURN iotz_recv_test_file(const IOTZ_CHAR* fileName, const IOTZ_SOCKET fSocket);
+
 IOTZ_RETURN iotz_comp_test_file(const IOTZ_CHAR* fileName1, const IOTZ_CHAR* fileName2);
 
 IOTZ_RETURN iotz_response_cavp(IOTZ_SOCKET* cSocket, IOTZ_CAVP_TEST_CODE code);
 IOTZ_RETURN iotz_response_submit(IOTZ_SOCKET* cSocket, IOTZ_CAVP_TEST_CODE code);
 
-IOTZ_RETURN iotz_request_cavp(IOTZ_CAVP_TEST_CODE code);
-IOTZ_RETURN iotz_request_test(IOTZ_CAVP_TEST_CODE code);
+IOTZ_RETURN iotz_request_testvector(IOTZ_CAVP_TEST_CODE code);
+
+IOTZ_RETURN iotz_request_hash_test(IOTZ_CAVP_TEST_CODE code);
+IOTZ_RETURN iotz_request_bc_test(IOTZ_CAVP_TEST_CODE code);
+
 IOTZ_RETURN iotz_request_submit(IOTZ_CAVP_TEST_CODE code);
+
+
 
 
 

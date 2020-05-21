@@ -153,7 +153,7 @@ IOTZ_RETURN query_blockcipher_enc(
 	get_tlv(buf + offset, &tag, (IOTZ_UDBYTE *)outLen, out);
 
 	if (tag != IOTZ_TAG_OUTPUT)
-		return IOTZ_BLOCK_CIPHER_TAG_ERROR;
+		return IOTZ_TAG_ERROR;
 
     close_local_socket(&tSocket);
 
@@ -174,5 +174,52 @@ IOTZ_RETURN query_blockcipher_dec(
 )
 {
 
+    return IOTZ_OK;
+}
+
+IOTZ_RETURN query_hash(
+    IOTZ_UBYTE *hash,
+    IOTZ_INT *hash_len,
+    const IOTZ_UBYTE *msg,
+    const IOTZ_INT msg_len,
+    const IOTZ_HASH_ALG alg
+)
+{
+    IOTZ_UBYTE buf[BUF_SIZE * 2] = {0x00}, tag = 0;
+    IOTZ_TARGET_FRAME *frame = (IOTZ_TARGET_FRAME *)buf;
+    IOTZ_TARGET_HASH *info = (IOTZ_TARGET_HASH *)(buf + IOTZ_TARGET_FRAME_HEADER_SIZE);
+    IOTZ_SOCKET socket;
+    IOTZ_INT offset = IOTZ_TARGET_FRAME_HEADER_SIZE + IOTZ_TARGET_HASH_HEADER_SIZE;
+
+    frame->cipher = IOTZ_TARGET_CODE_HASH;
+
+    info->alg = (IOTZ_UBYTE)alg;
+    
+    set_tlv(buf + offset, IOTZ_TAG_INPUT, msg_len, msg);
+    offset += IOTZ_TARGET_TLV_HEADER_SIZE + msg_len;
+
+    info->len = IOTZ_TARGET_HASH_HEADER_SIZE + offset;
+    frame->len = IOTZ_TARGET_FRAME_HEADER_SIZE + info->len;
+
+    connect_target(&socket);
+
+    send(socket, buf, frame->len, 0);
+
+    recv(socket, buf, BUF_SIZE, 0);
+
+    if (frame->cipher != IOTZ_TARGET_CODE_HASH)
+        return IOTZ_FRAME_CIPHER_CODE_ERROR;
+
+    if (info->alg != alg)
+        return IOTZ_HASH_ALGORITHM_ERROR;
+
+    offset = IOTZ_TARGET_FRAME_HEADER_SIZE + IOTZ_TARGET_HASH_HEADER_SIZE;
+    get_tlv(buf + offset, &tag, (IOTZ_UDBYTE *)hash_len, hash);
+
+    if (tag != IOTZ_TAG_OUTPUT)
+        return IOTZ_TAG_ERROR;
+
+    close_local_socket(&socket);
+    
     return IOTZ_OK;
 }
